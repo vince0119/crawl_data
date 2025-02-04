@@ -13,8 +13,10 @@ def load_config(config_path: Path = Path("config.json")) -> dict:
 
 if __name__ == "__main__":
     db_config = {
+        "host": "18.237.216.23",
+        "port": "5432",
         "dbname": "shopee_db",
-        "user": "test_website",
+        "user": "admin",
         "password": "1234"
     }
 

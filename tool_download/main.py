@@ -2,8 +2,10 @@ from hasaki.hasaki_automation import HasakiAutomation
 
 if __name__ == "__main__":
     db_config = {
+        "host": "18.237.216.23",
+        "port": "5432",
         "dbname": "shopee_db",
-        "user": "test_website",
+        "user": "admin",
         "password": "1234"
     }
 
