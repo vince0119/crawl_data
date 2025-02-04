@@ -1,0 +1,9 @@
+services:
+  parent_project:
+    image: python:3.9
+    container_name: tool_downloads
+    working_dir: /tool_download
+    volumes:
+      - .:/tool_download
+    command: >
+      sh -c "pip install -r requirements.txt && python main.py"
